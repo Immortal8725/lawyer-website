@@ -41,5 +41,6 @@ export const navLinks = [
 
 export function formatAddress() {
   const { line1, line2, suburb, postalCode, city, country } = site.location;
-  return `${line1}, ${line2}, ${suburb}, ${city}, ${postalCode}, ${country}`;
+  const locality = suburb === city ? city : `${suburb}, ${city}`;
+  return `${line1}, ${line2}, ${locality}, ${postalCode}, ${country}`;
 }
