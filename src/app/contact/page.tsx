@@ -17,7 +17,7 @@ export default function ContactPage() {
         title="Request a confidential consultation"
         description="Tell us briefly what the matter concerns. We will confirm whether we can assist and propose a time. Please do not send original documents through this form."
       />
-      <Container className="grid gap-12 py-14 lg:grid-cols-[minmax(0,1.2fr)_minmax(16rem,0.75fr)] sm:py-16">
+      <Container className="grid items-start gap-12 py-14 lg:grid-cols-[minmax(0,1.2fr)_minmax(16rem,0.75fr)] sm:py-16">
         <ContactForm />
         <aside className="h-fit space-y-8">
           <div className="border border-line bg-cream p-6">
